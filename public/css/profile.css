@@ -1,0 +1,146 @@
+
+/* ------------------------ */
+.body-container{
+    margin: auto;
+    width: 65%;
+    min-width: 450px;
+    overflow: hidden;
+}
+.profile-details{
+    margin: 4%;
+    width: 80%;
+    min-width: 450px;
+    position: relative;
+}
+.profile-details img{
+    /* width: 150px; */
+    width: 120px;
+    height: 120px;
+    min-width: 100px;
+    min-height: 100px;
+    border-radius: 100px;
+    display: inline-block;
+}
+.profile-description{
+    position: absolute;
+    width: 80%;
+    min-width: 200px;
+    left: 25%;
+    top: 0;
+    height: 100%;
+}
+.username{
+    font-size: 30px;
+    font-weight: lighter;
+}
+/* .edit-btn{
+    position: absolute;
+    right: 60px;
+    top: 10px;
+    border: 1px solid gray;
+    padding: 3px 5px;
+} */
+.edit-btn{
+    margin-top: 10px;
+    border: 1px solid gray;
+    padding: 3px 5px;
+}
+/* .settings-btn{
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    border: none;
+} */
+.settings-btn{
+    margin-top: 10px;
+    border: none;
+}
+.follow-details{
+    margin-right: 5px;
+    padding: 0;
+    margin-top: 20px;
+}
+.highlights{
+    width: 100%;
+    height: 150px;
+    margin-top: 50px;
+    border-bottom: 1px solid rgb(206, 206, 206);
+}
+.highlight{
+    width: fit-content;
+    position: relative;
+    margin: 10px;
+    display: inline-block;
+
+}
+.highlight img{
+    margin: auto;
+    width: 70px;
+    border-radius: 100px;
+    border: 1px solid black;
+    display: block;
+    padding: 5px;
+}
+.posts{
+    margin-top: 30px;
+    text-align: center;
+}
+.posts img{
+    width: 310px;
+    height: 310px;
+    margin-bottom: 5px;
+
+}
+.message-btn{
+    background-color: rgb(201, 201, 201);
+}
+.follow-details-a{
+    color: black;
+    text-decoration: none;
+}
+.follow-details-a:hover{
+    color: black;
+}
+@media screen and (max-width: 1000px) {
+    .profile-details img{
+        width: 100px;
+        height: 100px;
+    }
+
+}
+@media screen and (max-width: 900px){
+    .posts img{
+        width: 135px;
+        height: 135px;
+        margin-bottom: 10px;
+
+    }
+
+}
+@media screen and (min-width: 900px){
+    .posts img{
+        width: 180px;
+        height: 180px;
+        margin-bottom: 10px;
+
+    }
+
+}
+@media screen and (min-width: 1200px){
+    .posts img{
+        width: 220px;
+        height: 220px;
+        margin-bottom: 10px;
+
+    }
+
+}
+@media screen and (min-width: 1480px){
+    .posts img{
+        width: 310px;
+        height: 310px;
+        margin-bottom: 10px;
+
+    }
+
+}

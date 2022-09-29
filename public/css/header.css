@@ -1,0 +1,172 @@
+body{
+    background-color: rgb(245, 245, 245);
+}
+.start{
+    text-align: start;
+}
+.end{
+    text-align: end;
+}
+.header{
+    border-bottom: 1px solid rgb(205, 205, 205);
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    background-color: white;
+}
+.header-container{
+    width: 65%;
+    min-width: 420px;
+    margin: auto;
+    padding: 10px;
+}
+.header-logo{
+    width: 110px;
+}
+
+.header-search{
+    background-color: rgb(237, 237, 237);
+}
+.header-search::placeholder{
+    color: rgb(142, 142, 142);
+    font-weight: lighter;
+}
+.header-btn{
+    color: black;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    margin-right: 3px;
+    margin-left: 3px;
+    padding: 0;
+}
+.header-a{
+    color: black;
+    margin-right: 3px;
+    margin-left: 3px;
+    font-size: 20px;
+}
+.header-a:hover{
+    color: black;
+}
+button img, .link-img{
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+}
+.link-img{
+    width: 25px;
+}
+.header-profile-btn{
+    font-size: 5px;
+    border-radius: 50px;
+    border: 1px solid black;
+    width: fit-content;
+    padding: 1px;
+    transform: translateY(-7px);
+    margin-left: 15px;
+}
+.header-icons{
+    min-width: 250px;
+}
+.dropdown-center{
+    display: inline-block;
+    background-color: transparent;
+}
+.liked-img{
+    width: 30px;
+    position: absolute;
+    right: 10px;
+}
+.notification-menu{
+    min-width: 400px;
+}
+.not-name{
+    max-width: 5px;
+}
+.dropdown-menu{
+    box-shadow: 0 0 10px rgb(225, 225, 225);
+}
+.margin{
+    width: 100%;
+    height: 60px;
+}
+
+.add-post-background{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #80808085;
+    z-index: 4;
+    display: none;
+}
+.add-post-container{
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    width: 455px;
+    height: 455px;
+    border-radius: 15px;
+}
+.add-post-icon{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+    font-size: 100px;
+}
+.add-posts-span{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: lighter;
+    font-size: 18px;
+}
+.add-post-btn{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10%;
+}
+.line{
+    border-bottom: 1px solid rgb(199, 199, 199);
+    width: 100%;
+    margin: 15px 0;
+}
+#post-file{
+    display: none;
+}
+#header-upload-btn{
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 110px;
+}
+@media screen and (max-width: 576px){
+    .header-icons{
+        min-width: 250px;
+        text-align: center;
+    }
+    .header-btn{
+        color: black;
+        font-size: 20px;
+        margin-left: 3px;
+        margin-right: 3px;
+        padding: 2px;
+    }
+    .header-a{
+        font-size: 20px;
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+    button img{
+        margin: 0;
+        width: 20px;
+    }
+
+}

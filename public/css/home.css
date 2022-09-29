@@ -1,0 +1,166 @@
+.gutter{
+    --bs-gutter-x: 0;
+}
+.body-container{
+    width: 440px;
+    margin: auto;
+}
+.post-card{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(190, 190, 190);
+    border-radius: 10px;
+    background-color: white;
+}
+.publisher-profile-pic{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    margin: 10px;
+    border: 1px solid rgb(208, 208, 208);
+}
+.publisher-username{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+}
+.publisher-username:hover{
+    color: black;
+}
+.post-options-btn{
+    border: none;
+    background-color: transparent;
+    margin: 15px 5px;
+    cursor: pointer;
+}
+.red{
+    background-color: red;
+}
+.post-img{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 435px;
+    height: 435px;
+
+}
+.post-buttons{
+    color: black;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+.post-buttons:hover{
+    color: gray;
+}
+.w-0{
+    width: fit-content;
+    margin: 5px;
+}
+
+.liked-by, .post-description{
+    margin: 15px;
+    font-size: 14px;
+}
+.post-time{
+    color: rgb(203, 203, 203);
+    font-size: 12px;
+    display: block;
+    margin: 5px 15px;
+}
+.line{
+    border-bottom: 1px solid rgb(199, 199, 199);
+    width: 100%;
+    margin: 15px 0;
+}
+.comment-input{
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 3px 5px;
+    border: none;
+    outline: none;
+}
+.comment-btn{
+    margin-bottom: 15px;
+    padding: 3px 5px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: rgb(66, 66, 255);
+}
+.edited-btns{
+    min-width: 300px;
+}
+.min{
+    min-width: 150px;
+}
+.green{
+    background-color: green;
+}
+.comments-whole-container{
+    display: none;
+    position: fixed;
+    background-color: #808080bd;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+.comments-container{
+    background-color: white;
+    width: 500px;
+    height: 80%;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 5px;
+}
+.comments-header{
+    border-bottom: 1px solid gray;
+}
+.comments-header-span{
+    font-size: 20px;
+    font-weight: 500;
+}
+.comments-section{
+    height: 90%;
+    width: 100%;
+    background-color: rgb(206, 206, 206);
+    overflow-y: auto;
+}
+.comment-card{
+    background-color: white;
+    margin: 15px;
+    border-radius: 5px;
+    padding: 3px;
+
+}
+.comment-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    border: 1px solid gray;
+}
+@media screen and (max-width: 576px){
+    .pad-0{
+        padding: 0;
+    }
+    .body-container{
+        width: 420px;
+    }
+    .post-img{
+        width: 415px;
+        height: 415px;
+
+    }
+    .comments-container{
+        width: 440px;
+    }
+
+
+}
